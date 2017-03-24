@@ -1,0 +1,18 @@
+> add encounter filter by status
+> color code for each status
+>add family user control with details
+>user controls can be added dynamically
+>Add themes
+>Multi view
+>Tile view
+>Tab View
+>custom view
+
+> Each tab can be dynamically altered
+
+>Dashboard at pateint level
+>Allergies
+
+>Favourite Menu
+>Add customizable fields
+

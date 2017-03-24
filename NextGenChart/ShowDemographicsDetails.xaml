@@ -1,0 +1,70 @@
+﻿<controls:MetroWindow x:Class="NextGenChart.ShowDemographicsDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="ShowDemographicsDetails" Height="450" Width="800"
+        Topmost="True"
+        BorderThickness="0" 
+        ResizeMode="CanResizeWithGrip"
+        WindowTransitionsEnabled="False"
+        WindowStartupLocation="CenterScreen" ShowTitleBar="False" ShowCloseButton="True" ShowMaxRestoreButton="False" ShowMinButton="False"
+                      GlowBrush="{DynamicResource AccentColorBrush}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="14" FontWeight="Bold">Patient Demographics</TextBlock>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition  Width="100" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition  Width="100" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition  Width="100" />
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="1" HorizontalAlignment="Right" FontWeight="Bold">Country :</TextBlock>
+            <TextBlock Grid.Row="2" HorizontalAlignment="Right" FontWeight="Bold">SS Number :</TextBlock>
+            <TextBlock Grid.Row="3" HorizontalAlignment="Right" FontWeight="Bold">Birth Date :</TextBlock>
+            <TextBlock Grid.Row="4" HorizontalAlignment="Right" FontWeight="Bold">Age :</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"> USA </TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left">123213-12312-312</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left">11/05/1986</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left">30</TextBlock>
+            
+            <TextBlock Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right">Sex :</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right">Race :</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="2" HorizontalAlignment="Right">Ethnicity :</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="2" HorizontalAlignment="Right">Religion :</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="3" HorizontalAlignment="Left"> Male</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="3" HorizontalAlignment="Left">Asian</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="3" HorizontalAlignment="Left"> </TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="3" HorizontalAlignment="Left">Chriscian</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="4" HorizontalAlignment="Right">Employer :</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="4" HorizontalAlignment="Right">Primary care Phys :</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="4" HorizontalAlignment="Right">Primary Dental Prov :</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="4" HorizontalAlignment="Right">Pref. Language :</TextBlock>
+            
+            <TextBlock Grid.Row="1" Grid.Column="6" HorizontalAlignment="Right">Church :</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="6" HorizontalAlignment="Right">Occupation :</TextBlock>
+        </Grid>
+
+        
+
+    </Grid>
+</controls:MetroWindow>
